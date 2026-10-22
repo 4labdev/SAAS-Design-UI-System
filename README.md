@@ -55,6 +55,13 @@ No Windows, `py` pode substituir `python3`. Fontes disponíveis: `system`, `Inte
 | `docs/MANUTENCAO.md` | Desenvolvimento e empacotamento |
 | `dist/` | Artefato estável e checksum |
 
+## Contato e suporte
+
+Precisa de ajuda com o plugin? Fale com Tayrone Dsan:
+
+- **WhatsApp:** [(79) 99817-8275](https://wa.me/5579998178275?text=Ol%C3%A1%2C%20Tayrone!%20Vim%20pelo%20GitHub%20(README)%20do%20SAAS%20Design%20UI%20System%20e%20gostaria%20de%20suporte%20sobre%20o%20plugin.)
+- **E-mail:** [contato@tayronedsan.com](mailto:contato@tayronedsan.com?subject=%5BSAAS%20Design%20UI%20System%20%7C%20GitHub%20README%5D%20Suporte)
+
 ## Documentação técnica
 
 - [Guia de uso do plugin](docs/USO-DO-PLUGIN.md)
