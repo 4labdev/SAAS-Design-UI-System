@@ -1,4 +1,4 @@
-"""Gerar um pacote completo e reproduzível para distribuição aos clientes."""
+"""Gerar um pacote completo e reproduzível do plugin SaaS."""
 import hashlib
 import json
 from pathlib import Path
@@ -9,7 +9,7 @@ manifesto = json.loads((raiz / 'plugin.json').read_text(encoding='utf-8'))
 legado = json.loads((raiz / '.codex-plugin/plugin.json').read_text(encoding='utf-8'))
 versao = manifesto['version']
 assert versao == legado['version'], 'Versões dos manifestos divergentes.'
-arquivos = [raiz / p for p in ('plugin.json', '.codex-plugin/plugin.json', 'README.md', 'CHANGELOG.md', 'docs/GUIA-DO-CLIENTE.md', 'docs/MANUTENCAO.md', 'scripts/empacotar.py')]
+arquivos = [raiz / p for p in ('plugin.json', '.codex-plugin/plugin.json', 'README.md', 'CHANGELOG.md', 'docs/USO-DO-PLUGIN.md', 'docs/MANUTENCAO.md', 'scripts/empacotar.py')]
 for pasta in ('assets', 'skills'):
     arquivos.extend(p for p in (raiz / pasta).rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc')
 destino = raiz / 'dist'

@@ -1,4 +1,4 @@
-# Manutenção e publicação
+# Manutenção do plugin e publicação de versões
 
 ## Estrutura
 
@@ -6,7 +6,7 @@
 - `.codex-plugin/plugin.json`: manifesto de compatibilidade.
 - `skills/`: instruções, gerador, modelos e referências.
 - `assets/`: ícones do plugin.
-- `docs/`: documentação para clientes e manutenção.
+- `docs/`: documentação de uso do plugin e manutenção.
 - `scripts/empacotar.py`: gera ZIP completo e soma SHA-256.
 - `dist/`: pacotes prontos para baixar.
 
@@ -18,7 +18,7 @@ Na raiz do repositório, execute:
 python3 scripts/empacotar.py
 ```
 
-O script confere a versão dos dois manifestos e inclui somente os componentes do plugin, README, histórico e guia do cliente. Não inclui Git, credenciais, arquivos temporários, releases anteriores nem o próprio diretório `dist` dentro do ZIP. O conteúdo original da versão 1.4.8 é preservado; comentários internos do gerador podem citar uma versão anterior do módulo.
+O script confere a versão dos dois manifestos e inclui somente os componentes do plugin, README, histórico e guia de uso do plugin. Não inclui Git, credenciais, arquivos temporários, releases anteriores nem o próprio diretório `dist` dentro do ZIP. O conteúdo original da versão 1.4.8 é preservado; comentários internos do gerador podem citar uma versão anterior do módulo.
 
 ## Publicar uma versão
 
@@ -48,6 +48,6 @@ Get-Content .\dist\SHA256SUMS.txt
 
 Compare os valores. A validação local não substitui o teste visual e funcional na plataforma do cliente.
 
-## Acesso dos clientes
+## Disponibilização do plugin
 
-Em repositório privado, downloads e releases exigem acesso autorizado. Para distribuição sem conta autorizada, o responsável pode enviar o ZIP diretamente. Tornar o repositório público é uma decisão separada; a publicação de uma release não muda sua visibilidade.
+O pacote pode ser distribuído pelo ZIP publicado na release. O repositório público não equivale à publicação automática do plugin em um diretório de terceiros. A versão 1.4.8 permanece um artefato histórico fixo; mudanças na documentação só integrarão um novo ZIP quando uma nova versão for empacotada.

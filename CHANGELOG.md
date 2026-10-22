@@ -1,5 +1,7 @@
 # Histórico de versões
 
+> A documentação pública do repositório foi reorganizada em 22/10/2026 para apresentar apenas o plugin. Essa alteração não muda o artefato estável 1.4.8.
+
 ## 1.4.8 — 22/10/2026
 
 - Adicionado atalho para anexar a logo e criar CSS com suas cores.
