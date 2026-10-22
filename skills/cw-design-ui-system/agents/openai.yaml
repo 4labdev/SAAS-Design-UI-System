@@ -1,0 +1,4 @@
+interface:
+  display_name: "SAAS Design UI System"
+  short_description: "Gera temas CSS para SaaS White Label"
+  default_prompt: "Crie meu tema CSS com minha cor principal e fonte preferida."

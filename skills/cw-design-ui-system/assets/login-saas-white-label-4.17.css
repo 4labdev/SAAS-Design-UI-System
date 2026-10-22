@@ -1,0 +1,60 @@
+/* SaaS White Label 4.17.1: estrutura fornecida pelo usuário.
+   Requer :has(); sem suporte, preserva o layout original. */
+#app main.flex.flex-col:has(> section:first-child > img[src="/brand-assets/logo.svg"]):has(> section:nth-child(2) form > button[data-testid="submit_button"]) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: 0;
+  background: #fff;
+}
+#app main.flex.flex-col:has(> section:first-child > img[src="/brand-assets/logo.svg"]):has(> section:nth-child(2) form > button[data-testid="submit_button"]) > section:first-child {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  margin: 0;
+  padding: clamp(2rem, 6vw, 5rem);
+  box-sizing: border-box;
+  background: rgb(var(--blue-3, 231 242 255));
+}
+#app main.flex.flex-col:has(> section:first-child > img[src="/brand-assets/logo.svg"]):has(> section:nth-child(2) form > button[data-testid="submit_button"]) > section:first-child > img {
+  max-width: 100%;
+  object-fit: contain;
+}
+#app main.flex.flex-col:has(> section:first-child > img[src="/brand-assets/logo.svg"]):has(> section:nth-child(2) form > button[data-testid="submit_button"]) > section:nth-child(2) {
+  align-self: center;
+  width: 100%;
+  max-width: 36rem;
+  min-width: 0;
+  margin: 0 auto;
+  padding: clamp(1.25rem, 4vw, 4rem);
+  box-sizing: border-box;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  overflow-wrap: anywhere;
+}
+#app main.flex.flex-col:has(> section:first-child > img[src="/brand-assets/logo.svg"]):has(> section:nth-child(2) form > button[data-testid="submit_button"]) > section:nth-child(2) [data-testid="submit_button"] {
+  background-color: rgb(var(--cw-brand-rgb, 39 129 246));
+}
+#app main.flex.flex-col:has(> section:first-child > img[src="/brand-assets/logo.svg"]):has(> section:nth-child(2) form > button[data-testid="submit_button"]) > section:nth-child(2) [data-testid="submit_button"]:not(:disabled):hover {
+  background-color: rgb(var(--cw-brand-hover-rgb, 29 105 205));
+}
+#app main.flex.flex-col:has(> section:first-child > img[src="/brand-assets/logo.svg"]):has(> section:nth-child(2) form > button[data-testid="submit_button"]) > section:nth-child(2) label[for="password"] {
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+.dark #app main.flex.flex-col:has(> section:first-child > img[src="/brand-assets/logo.svg"]):has(> section:nth-child(2) form > button[data-testid="submit_button"]) {
+  background: #0f172a;
+}
+@media (min-width: 900px) {
+  #app main.flex.flex-col:has(> section:first-child > img[src="/brand-assets/logo.svg"]):has(> section:nth-child(2) form > button[data-testid="submit_button"]) {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  #app main.flex.flex-col:has(> section:first-child > img[src="/brand-assets/logo.svg"]):has(> section:nth-child(2) form > button[data-testid="submit_button"]) > section:first-child {
+    align-self: stretch;
+  }
+}

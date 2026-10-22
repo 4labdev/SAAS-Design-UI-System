@@ -1,0 +1,35 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Developer Tools",
+    "defaultPrompt": [
+      "Crie meu tema com a cor #087F5B e a fonte Inter.",
+      "Quero personalizar meu painel. Quais cores e fontes posso escolher?",
+      "Adapte meu CSS atual para a cor #7C3AED, usando a fonte do sistema.",
+      "Crie o CSS para minha tela de login, com as cores e a frase da minha marca.",
+      "Quero anexar minha logo para extrair as cores e criar o CSS do painel ou da tela de login."
+    ],
+    "developerName": "Tayrone Dsan",
+    "displayName": "SAAS Design UI System",
+    "longDescription": "Personalize o painel e o login do seu SaaS White Label com as cores, fontes e frases da sua marca. Inclui layout de login em duas colunas, suporte aos modos claro e escuro e ajustes de contraste. A compatibilidade depende da estrutura HTML da plataforma. Gera CSS pela conversa, sem acessar ou modificar sua plataforma.",
+    "shortDescription": "CSS para seu SaaS White Label",
+    "logo": "./assets/icon-512.png",
+    "composerIcon": "./assets/icon-512.png",
+    "logoDark": "./assets/icon-512.png",
+    "composerIconDark": "./assets/icon-512.png"
+  },
+  "name": "cw-design-ui-system",
+  "version": "1.4.8",
+  "description": "Gera CSS personalizado para pain\u00e9is e login de SaaS White Label, com cores, tipografia e ajustes de contraste.",
+  "author": {
+    "name": "Tayrone Dsan",
+    "email": "designertayrone@gmail.com"
+  },
+  "keywords": [
+    "saas-white-label",
+    "css",
+    "design",
+    "tipografia"
+  ],
+  "skills": "./skills"
+}

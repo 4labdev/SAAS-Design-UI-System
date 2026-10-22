@@ -1,0 +1,300 @@
+/* Classes de marca da base SaaS White Label 4.14.5.2. */
+.border-n-brand {
+  border-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.border-n-brand {
+  border-color: rgb(var(--cw-brand-rgb) / var(--tw-border-opacity, 1)) !important;
+}
+
+.border-t-n-brand {
+  border-top-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.border-t-n-brand {
+  border-top-color: rgb(var(--cw-brand-rgb) / var(--tw-border-opacity, 1)) !important;
+}
+
+.bg-n-brand {
+  background-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.bg-n-brand {
+  background-color: rgb(var(--cw-brand-rgb) / var(--tw-bg-opacity, 1)) !important;
+}
+
+.bg-n-brand\/10 {
+  background-color: rgb(var(--cw-brand-rgb) / 0.10196) !important;
+}
+
+.bg-n-brand\/20 {
+  background-color: rgb(var(--cw-brand-rgb) / 0.2) !important;
+}
+
+.bg-n-brand\/5 {
+  background-color: rgb(var(--cw-brand-rgb) / 0.05098) !important;
+}
+
+.text-n-brand {
+  color: rgb(var(--cw-brand-text-rgb)) !important;
+}
+
+.text-n-brand {
+  color: rgb(var(--cw-brand-text-rgb) / var(--tw-text-opacity, 1)) !important;
+}
+
+.accent-n-brand {
+  accent-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.\!outline-n-brand {
+  outline-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.outline-n-brand {
+  outline-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.ring-n-brand {
+  --tw-ring-color: rgb(var(--cw-brand-rgb) / var(--tw-ring-opacity, 1)) !important;
+}
+
+.file\:bg-n-brand::file-selector-button {
+  background-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.file\:bg-n-brand::file-selector-button {
+  background-color: rgb(var(--cw-brand-rgb) / var(--tw-bg-opacity, 1)) !important;
+}
+
+.before\:\!border-t-n-brand:before {
+  border-top-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.before\:\!border-t-n-brand:before {
+  border-top-color: rgb(var(--cw-brand-rgb) / var(--tw-border-opacity, 1)) !important;
+}
+
+.before\:bg-n-brand:before {
+  background-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.before\:bg-n-brand:before {
+  background-color: rgb(var(--cw-brand-rgb) / var(--tw-bg-opacity, 1)) !important;
+}
+
+.after\:bg-n-brand:after {
+  background-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.after\:bg-n-brand:after {
+  background-color: rgb(var(--cw-brand-rgb) / var(--tw-bg-opacity, 1)) !important;
+}
+
+.checked\:border-n-brand:checked {
+  border-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.checked\:border-n-brand:checked {
+  border-color: rgb(var(--cw-brand-rgb) / var(--tw-border-opacity, 1)) !important;
+}
+
+.checked\:bg-n-brand:checked {
+  background-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.checked\:bg-n-brand:checked {
+  background-color: rgb(var(--cw-brand-rgb) / var(--tw-bg-opacity, 1)) !important;
+}
+
+.indeterminate\:border-n-brand:indeterminate {
+  border-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.indeterminate\:border-n-brand:indeterminate {
+  border-color: rgb(var(--cw-brand-rgb) / var(--tw-border-opacity, 1)) !important;
+}
+
+.indeterminate\:bg-n-brand:indeterminate {
+  background-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.indeterminate\:bg-n-brand:indeterminate {
+  background-color: rgb(var(--cw-brand-rgb) / var(--tw-bg-opacity, 1)) !important;
+}
+
+.focus-within\:outline-n-brand:focus-within {
+  outline-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.focus-within\:ring-n-brand:focus-within {
+  --tw-ring-color: rgb(var(--cw-brand-rgb) / var(--tw-ring-opacity, 1)) !important;
+}
+
+.hover\:border-l-n-brand:hover {
+  border-left-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.hover\:border-l-n-brand:hover {
+  border-left-color: rgb(var(--cw-brand-rgb) / var(--tw-border-opacity, 1)) !important;
+}
+
+.hover\:bg-n-brand:hover {
+  background-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.hover\:bg-n-brand:hover {
+  background-color: rgb(var(--cw-brand-rgb) / var(--tw-bg-opacity, 1)) !important;
+}
+
+.hover\:bg-n-brand\/10:hover {
+  background-color: rgb(var(--cw-brand-rgb) / 0.10196) !important;
+}
+
+.hover\:bg-n-brand\/80:hover {
+  background-color: rgb(var(--cw-brand-rgb) / 0.8) !important;
+}
+
+.hover\:bg-n-brand\/90:hover {
+  background-color: rgb(var(--cw-brand-rgb) / 0.90196) !important;
+}
+
+.hover\:text-n-brand:hover {
+  color: rgb(var(--cw-brand-text-rgb)) !important;
+}
+
+.hover\:text-n-brand:hover {
+  color: rgb(var(--cw-brand-text-rgb) / var(--tw-text-opacity, 1)) !important;
+}
+
+.hover\:file\:bg-n-brand\/90::file-selector-button:hover {
+  background-color: rgb(var(--cw-brand-rgb) / 0.90196) !important;
+}
+
+.focus\:border-n-brand:focus {
+  border-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.focus\:border-n-brand:focus {
+  border-color: rgb(var(--cw-brand-rgb) / var(--tw-border-opacity, 1)) !important;
+}
+
+.focus\:outline-n-brand:focus {
+  outline-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.focus\:ring-n-brand:focus {
+  --tw-ring-color: rgb(var(--cw-brand-rgb) / var(--tw-ring-opacity, 1)) !important;
+}
+
+.focus-visible\:bg-n-brand\/20:focus-visible {
+  background-color: rgb(var(--cw-brand-rgb) / 0.2) !important;
+}
+
+.focus-visible\:ring-n-brand:focus-visible {
+  --tw-ring-color: rgb(var(--cw-brand-rgb) / var(--tw-ring-opacity, 1)) !important;
+}
+
+.hover\:enabled\:bg-n-brand\/20:enabled:hover {
+  background-color: rgb(var(--cw-brand-rgb) / 0.2) !important;
+}
+
+.group:focus-within .group-focus-within\:text-n-brand {
+  color: rgb(var(--cw-brand-text-rgb)) !important;
+}
+
+.group:focus-within .group-focus-within\:text-n-brand {
+  color: rgb(var(--cw-brand-text-rgb) / var(--tw-text-opacity, 1)) !important;
+}
+
+.group:hover .group-hover\:bg-n-brand {
+  background-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.group:hover .group-hover\:bg-n-brand {
+  background-color: rgb(var(--cw-brand-rgb) / var(--tw-bg-opacity, 1)) !important;
+}
+
+.group:hover .group-hover\:text-n-brand {
+  color: rgb(var(--cw-brand-text-rgb)) !important;
+}
+
+.group:hover .group-hover\:text-n-brand {
+  color: rgb(var(--cw-brand-text-rgb) / var(--tw-text-opacity, 1)) !important;
+}
+
+.has-\[\:focus\]\:outline-n-brand:has(:focus) {
+  outline-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.dark\:border-n-brand:is(.dark *) {
+  border-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.dark\:border-n-brand:is(.dark *) {
+  border-color: rgb(var(--cw-brand-rgb) / var(--tw-border-opacity, 1)) !important;
+}
+
+.dark\:bg-n-brand\/10:is(.dark *) {
+  background-color: rgb(var(--cw-brand-rgb) / 0.10196) !important;
+}
+
+.dark\:\!outline-n-brand:is(.dark *) {
+  outline-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.dark\:ring-n-brand:is(.dark *) {
+  --tw-ring-color: rgb(var(--cw-brand-rgb) / var(--tw-ring-opacity, 1)) !important;
+}
+
+.dark\:checked\:border-n-brand:checked:is(.dark *) {
+  border-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.dark\:checked\:border-n-brand:checked:is(.dark *) {
+  border-color: rgb(var(--cw-brand-rgb) / var(--tw-border-opacity, 1)) !important;
+}
+
+.dark\:checked\:bg-n-brand:checked:is(.dark *) {
+  background-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.dark\:checked\:bg-n-brand:checked:is(.dark *) {
+  background-color: rgb(var(--cw-brand-rgb) / var(--tw-bg-opacity, 1)) !important;
+}
+
+.dark\:focus-within\:outline-n-brand:focus-within:is(.dark *) {
+  outline-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.dark\:hover\:border-l-n-brand:hover:is(.dark *) {
+  border-left-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.dark\:hover\:border-l-n-brand:hover:is(.dark *) {
+  border-left-color: rgb(var(--cw-brand-rgb) / var(--tw-border-opacity, 1)) !important;
+}
+
+.dark\:hover\:text-n-brand:hover:is(.dark *) {
+  color: rgb(var(--cw-brand-text-rgb)) !important;
+}
+
+.dark\:hover\:text-n-brand:hover:is(.dark *) {
+  color: rgb(var(--cw-brand-text-rgb) / var(--tw-text-opacity, 1)) !important;
+}
+
+.dark\:focus\:outline-n-brand:focus:is(.dark *) {
+  outline-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.dark\:has-\[\:focus\]\:outline-n-brand:has(:focus):is(.dark *) {
+  outline-color: rgb(var(--cw-brand-rgb)) !important;
+}
+
+.\[\&_\.prosemirror-mention-node\]\:text-n-brand .prosemirror-mention-node {
+  color: rgb(var(--cw-brand-text-rgb)) !important;
+}
+
+.\[\&_\.prosemirror-mention-node\]\:text-n-brand .prosemirror-mention-node {
+  color: rgb(var(--cw-brand-text-rgb) / var(--tw-text-opacity, 1)) !important;
+}

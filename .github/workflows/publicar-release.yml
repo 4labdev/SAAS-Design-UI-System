@@ -1,0 +1,35 @@
+name: Publicar pacote do plugin
+on:
+  push:
+    branches: [main]
+    paths: ['plugin.json', 'dist/**', '.github/workflows/publicar-release.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publicar-release
+  cancel-in-progress: false
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter o código
+        uses: actions/checkout@v4
+      - name: Conferir pacote
+        run: |
+          python3 scripts/empacotar.py
+          git diff --exit-code -- dist
+          cd dist
+          sha256sum -c SHA256SUMS.txt
+      - name: Publicar versão estável
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          VERSION=$(python3 -c 'import json; print(json.load(open("plugin.json"))["version"])')
+          TAG="v${VERSION}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "A versão ${TAG} já está publicada; nenhuma alteração foi feita."
+            exit 0
+          fi
+          gh release create "$TAG" "dist/saas-design-ui-system-${VERSION}.zip" dist/SHA256SUMS.txt --target "$GITHUB_SHA" --title "SAAS Design UI System ${VERSION}" --notes-file CHANGELOG.md --latest

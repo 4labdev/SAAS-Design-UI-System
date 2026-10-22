@@ -1,0 +1,43 @@
+/* Contrato opcional de integração. Não são seletores nativos confirmados.
+   Manter conteúdo e formulário reais dentro dos elementos documentados. */
+.cw-login-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: #ffffff;
+  color: #17212b;
+}
+.cw-login-layout > .cw-login-brand {
+  display: grid;
+  align-content: center;
+  gap: 1.5rem;
+  min-width: 0;
+  padding: clamp(1.5rem, 5vw, 5rem);
+  background: rgb(var(--cw-brand-rgb));
+  color: #ffffff;
+  overflow-wrap: anywhere;
+}
+.cw-login-layout > .cw-login-main {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  min-width: 0;
+  padding: clamp(1.25rem, 4vw, 4rem);
+}
+.cw-login-layout > .cw-login-main > .cw-login-form {
+  width: 100%;
+  max-width: 28rem;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.dark .cw-login-layout,
+.cw-login-layout.dark {
+  background: #111916;
+  color: #f3f5f4;
+}
+@media (min-width: 900px) {
+  .cw-login-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
