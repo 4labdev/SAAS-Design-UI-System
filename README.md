@@ -6,6 +6,12 @@ Plugin baseado em **skill conversacional** para gerar e adaptar CSS de interface
 
 [Baixar o plugin (ZIP 1.4.8)](https://github.com/4labdev/SAAS-Design-UI-System/raw/refs/heads/main/dist/saas-design-ui-system-1.4.8.zip) · [Releases](https://github.com/4labdev/SAAS-Design-UI-System/releases) · [Guia de uso](docs/USO-DO-PLUGIN.md) · [Histórico](CHANGELOG.md)
 
+## Apresentação em vídeo
+
+[![Assistir ao vídeo de apresentação do SAAS Design UI System](https://img.youtube.com/vi/gvIcpga4sM4/hqdefault.jpg)](https://youtu.be/gvIcpga4sM4)
+
+[▶ Assistir ao vídeo no YouTube](https://youtu.be/gvIcpga4sM4)
+
 ## Recursos do plugin
 
 - **Temas CSS:** cores, tipografia e acabamento `essential` ou `polished`.
