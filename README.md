@@ -4,6 +4,10 @@ Crie CSS para o painel e a tela de login do seu SaaS White Label usando as cores
 
 **Versão estável: 1.4.8** · Autor: Tayrone Dsan
 
+## Página para clientes
+
+A página de apresentação, download e primeiros passos está em [`docs/index.html`](docs/index.html), pronta para publicação no GitHub Pages a partir de **main → /docs**. Consulte [ativação e manutenção](docs/GITHUB-PAGES.md).
+
 ## Baixar o pacote
 
 ➡️ **[Baixar SAAS Design UI System 1.4.8 — ZIP completo](https://github.com/4labdev/SAAS-Design-UI-System/raw/refs/heads/main/dist/saas-design-ui-system-1.4.8.zip)**
