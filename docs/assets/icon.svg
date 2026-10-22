@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>SAAS Design UI System</title>
+<rect x="16" y="16" width="480" height="480" rx="116" fill="#102C22"/>
+<rect x="100" y="116" width="312" height="280" rx="32" fill="none" stroke="#ECFFF6" stroke-width="20"/>
+<path d="M110 188H402" stroke="#ECFFF6" stroke-width="16"/>
+<circle cx="137" cy="151" r="9" fill="#6EE7B7"/>
+<circle cx="169" cy="151" r="9" fill="#6EE7B7"/>
+<rect x="134" y="222" width="76" height="140" rx="15" fill="#6EE7B7"/>
+<path d="M247 237H369M247 276H338" stroke="#ECFFF6" stroke-width="16" stroke-linecap="round"/>
+<rect x="239" y="313" width="138" height="42" rx="13" fill="#6EE7B7"/>
+</svg>
